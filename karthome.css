@@ -41,7 +41,7 @@
     padding-bottom: 5px;
     outline: none;
 }
-.search-icon{
+.searchbtn{
     width: 70px;
     display: flex;
     justify-content: center;
@@ -147,7 +147,9 @@ margin-right: 20px;
 .logout p{
     margin-right: 10px;
 }
-
+/* .main{
+    margin-top: 150px;
+}
 .cards-container{
 justify-content: space-between;
 flex-wrap: wrap;
@@ -158,6 +160,8 @@ align-items: start;
 .card{
     width: 360px;
     height: 400px;
+    cursor: pointer;
+    overflow hidden;
     border-radius: 4px;
     margin: 20px;
     background-color: #7563BD;
@@ -171,5 +175,74 @@ align-items: start;
 }
 .cardcontent{
     padding: 12px;
+    
+} */
+
+main{
+    margin-top: 20px;
+    padding: 20px;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+.card{
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: 20px;
+    background-color: white
+}
+.cardactions{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+    color: white;
+    font-family: 'Faustina',sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: #8991E4;
+
+}
+.cardactions p{
+    margin-bottom: 5px;
+}
+.cardimg{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.cardcontent{
+    padding: 12px;
+    margin-top: 25px;
+}
+#productcost{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+#producttitle{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 20px;
+}
+#usedfor{
+    margin-top: 9px;
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px
+}
+#prodDescp{
+    font-family: 'Faustina',sans-serif;
+    color: #7563BD;
+    font-size: 15px
 }
 
