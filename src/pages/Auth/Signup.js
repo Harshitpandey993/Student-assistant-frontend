@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import STUDENT_ASSISTANT_IMG from "../../assets/studentass1.png";
 import { notifications } from "@mantine/notifications";
-import "./Signup.css";
+import "./Authstyle.css";
 import authService from "../../services/auth.service";
 import { useNavigate } from "react-router-dom";
 

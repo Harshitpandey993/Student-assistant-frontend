@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import "./Login.css";
+import "./Authstyle.css";
 import { notifications } from "@mantine/notifications";
-import STUDENT_ASSISTANT_IMG from "../../assets/studentass1.png";
 import authService from "../../services/auth.service";
 import { useNavigate } from "react-router-dom";
 
@@ -82,7 +81,9 @@ const Login = () => {
           />
           <div className="forgot">
             <p>Forgot Password?</p>
-            <p id="clickhere">Click Here</p>
+            <a id="clickhere" href="/forgotpassword">
+              Click Here
+            </a>
           </div>
 
           <button className="signupbtn">

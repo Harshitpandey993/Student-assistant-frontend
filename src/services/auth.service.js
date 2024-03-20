@@ -32,8 +32,10 @@ class AuthService {
       email,
     });
 
-  resetPassword = async (password) =>
+  resetPassword = async (email, token, password) =>
     apiUtil.post(this.route + "/passwordReset", {
+      email,
+      token,
       password,
     });
 }
